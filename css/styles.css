@@ -1,0 +1,84 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #949494;
+  color: #000;
+  border-radius: 0;
+  border-bottom: 3px solid #000;
+  vertical-align: middle;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #dddddd;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a h1 span {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* navbar toggle */
+.navbar-header button.navbar-toggle, .navbar-header button.navbar-toggle span {
+  border: 1px solid #000;
+  color: #000;
+}
+
+/* menu list */
+.navbar-collapse .navbar-nav li a {
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+.navbar-collapse .navbar-nav li a:hover {
+  color: #949494;
+  background-color: #363636;
+  background-size: 5px 10px;
+  border-radius: 10px; 
+}
+/* .container {
+  vertical-align: middle;
+} */
+
+/* Large Screen */
+@media (min-width: 1200px) {
+  
+}
+
+/* Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Small Device */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse .navbar-nav li a {
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+/* Extra small device */
+@media (max-width: 767px) {
+
+}
+
+
